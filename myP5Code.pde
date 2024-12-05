@@ -9,22 +9,36 @@ void setup() {
 void draw(){
   fill(255,255,255);
   strokeWeight(1);
-
+background(112, 177, 207)
   //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
   
   // The ground
   rect(0, 300, 400, 100);  
 
   // The sun
+  fill(242, 207, 48)
   ellipse(80, 64, 100, 100);  
 
   // The snowman
+  fill(253, 251, 255 )
   ellipse(200, 300, 150, 150);
   ellipse(200, 200, 100, 100);
   ellipse(200, 120, 75, 75);
   
-
+  // eyes
+  fill (61, 37, 70 )
+  ellipse (185,115,10,10)
+  ellipse (215,115,10,10)
+  
+  //buttons
+  fill(129, 36, 36)
+  
+  ellipse(200,190,15,15)
+  fill(87, 172, 105 )
+  ellipse(200,215,15,15)
 }
+
+
 
 //🟡Extra FUN Features Ms. Hall Added
 //Proceed with Caution (and Curiosity!)
